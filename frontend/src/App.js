@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { PlusCircle, TrendingUp, TrendingDown, DollarSign, Filter, Download, Upload, RefreshCw, Server, AlertCircle, LogOut, User, Lock } from 'lucide-react';
 import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { supabase } from './supabaseClient';
+import API_URL from './config';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = API_URL;
 
 const CashFlowApp = () => {
   // Supabase Auth state
