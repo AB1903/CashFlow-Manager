@@ -5,7 +5,8 @@ A modern, secure personal finance management application built with React and Fa
 [![Deploy on Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
 
-**Live Demo**: [Coming Soon]  
+**Live Demo**: [https://spendbase-vert.vercel.app](https://spendbase-vert.vercel.app)  
+**Backend API**: [https://cashflow-manager-m1od.onrender.com](https://cashflow-manager-m1od.onrender.com)  
 **Total Cost**: $0/month (Free Tier Deployment)
 
 ---
@@ -318,10 +319,20 @@ ISC License - feel free to use this project however you like!
 - ✅ Database - Configured & Migrated
 - ✅ Security - Hardened & Tested
 - ✅ Deployment - Ready for Free Hosting
+- ✅ Monitoring - 24/7 uptime with cron-job
 
 **Total Development Time**: Complete  
 **Total Cost**: $0/month  
 **Production Ready**: Yes ✅
+
+---
+
+## 📊 Monitoring & Uptime
+
+- **Keep-Alive**: Cron job pings backend every 10 minutes via [cron-job.org](https://cron-job.org)
+- **Backend Logs**: Available in [Render Dashboard](https://dashboard.render.com)
+- **Frontend Analytics**: Available in [Vercel Dashboard](https://vercel.com/dashboard)
+- **Health Endpoint**: https://cashflow-manager-m1od.onrender.com/health
 
 ---
 
